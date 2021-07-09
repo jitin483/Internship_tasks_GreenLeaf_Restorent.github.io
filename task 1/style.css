@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    content: '';
+    background-image: url(images/background.png);
+    height: 2450px;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+}
+.header{
+    background-image: url(images/main.png);
+    background-repeat: no-repeat; 
+   background-position: center;
+   opacity: 0.7;
+   
+  
+}
+.upper{
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+}
+.contact_info ul li{
+    color: white;
+    display: inline;
+    padding: 30px;
+}
+.contact_info ul li button{
+    border: none;
+    outline:none;
+    background-color: Transparent;
+    color: white;
+}
+hr.line1{
+    border-style: dotted none none none;
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.logo{
+    display: flex;
+    padding: 20px;
+}
+.logo img{
+    margin-left: 40px;
+    margin-right: 20px;
+
+}
+.logotext{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navbar ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.navbar ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+   padding: 0 15px;
+}
+.navbar ul li{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul ul{
+    position: absolute;
+    display: none;
+}
+.navbar ul ul li{
+    float: none;
+    width: 200px;
+}
+.navbar ul li:hover ul{
+    display: block;
+}
+.logotext{
+
+font-size: 22pt;
+color: rgba(18, 168, 78, 255);
+}
+.navbar UL LI{
+color: white;
+}
+.m_text1{
+
+font-size: 35pt;
+color: rgba(255, 255, 255, 255);
+text-align: center;
+margin-top: 50px;
+}
+.m_text2{
+    font-family: 'Open Sans', sans-serif;
+font-size: 40pt;
+color: rgba(255, 255, 255, 255);
+text-align: center;
+}
+.home{
+
+font-size: 18pt;
+color: rgba(18, 168, 78, 255);
+
+text-align: center;
+
+}
+#home_btn{
+    padding: 10px 30px;
+    color: rgba(18, 168, 78, 255);
+    border-radius: 10px;
+    border: none;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+.menu_box{
+    background-color: white;
+    height: 340px;
+    width: 85.5vw;
+    display: flex;
+    margin: 30px auto;
+}
+.date{
+    display: flex;
+   margin-top: 5px;
+   margin-bottom: 20px;
+}
+.date p{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.box_containt{
+    padding: 20px;
+    border: 2px solid rgba(18, 168, 78, 255); ;
+    border-left: none;
+}
+#box_button{
+padding: 10px 20px;
+margin-top: 30px;
+font-size: 16pt;
+color: rgba(18, 168, 78, 255);
+border: 1.5px solid rgba(18, 168, 78, 255);
+}
+.footer{
+ margin-top: 1000px; 
+ opacity: 0.7; 
+ 
+}
+.footer_1{
+    background-image: url(images/footer.png);
+    display: flex;
+    
+}
+.ft1{
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+}
+.ft2,.ft3,.ft4,.ft5,.ft6,.ft7{
+    border-right: 2px solid white;
+    margin: auto 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+.ft8{
+    margin: auto 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+.footer_2{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: max-content;
+}
+.f1{
+    background-color: black;
+    color: white;
+padding-left: 50px;
+margin: 30px 0px 60px 0px;
+font-size: 16pt;
+}
+.f2{
+    background-color: black;
+    color: white;
+    margin: 30px 0px 60px 0px;
+    font-size: 16pt;
+}
+.f3{
+    background-color: black;
+    color: white;
+    padding-right: 50px;
+    margin: 30px 0px 60px 0px;
+    font-size: 16pt;
+}
+#sub_btn{
+    background-color: rgba(18, 168, 78, 255);
+    border-style: none;
+    color: white;
+    width: 150px; height: 20px;
+    margin-top: 10px;
+}
