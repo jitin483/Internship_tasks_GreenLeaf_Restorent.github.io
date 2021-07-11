@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .navbar{
+            background-color: black;
+        }
+        .navbar ul {
+            list-style: none;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+
+        .navbar ul a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 40px;
+            display: block;
+           padding: 0 15px;
+        }
+        .navbar ul li{
+            float: left;
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul ul{
+            position: absolute;
+            display: none;
+        }
+        .navbar ul ul li{
+            float: none;
+            width: 200px;
+        }
+        .navbar ul li:hover ul{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#HOME">HOME</a> </li>
+            <li><a href="#ROOMS">ROOMS</a>
+                <ul class="dropdown">
+                    <li><a href="#">AC ROOM</a></li>
+                    <li><a href="#">NON AC</a></li>
+                </ul>
+            </li>
+            <li><a href="#GALLERY">GALLERY</a>
+                <ul>
+                    <li><a href="#">GALLERY 1</a></li>
+                    <li><a href="#">GALLERY 2</a></li>
+                    <li><a href="#">GALLERY 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#EVENTS">EVENTS</a>
+                <ul>
+                    <li><a href="#">EVENT 1</a></li>
+                    <li><a href="#">EVENT 2</a></li>
+                    <li><a href="#">EVENT 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#ABOUT">ABOUT</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
